@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B2EBF10E-CD84-03B2-481A-BFD627871F81" mainViewID="3FA18B01-A3E7-D468-E4A3-808092DC94A4">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-12 00:33:18 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

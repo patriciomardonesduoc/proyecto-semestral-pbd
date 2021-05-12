@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="proyecto-semestra-pbd" id="D6150198-DA79-E2CF-73A8-C4D3E2159231" version="3.5">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-12 00:33:18 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D6150198-DA79-E2CF-73A8-C4D3E2159231</designId>
+</OSDM_Design>
