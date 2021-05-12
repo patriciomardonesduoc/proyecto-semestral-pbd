@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="B50E0704-D151-F66E-7991-E2C2D8903304">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-12 01:11:34 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<sourcePk>6960A473-F230-49DD-46F8-73E8DD56C925</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5BAB42E-99F8-803F-98E9-3EF0DC8B8246</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A82443DF-69F9-1356-064A-A67A440AB86C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
