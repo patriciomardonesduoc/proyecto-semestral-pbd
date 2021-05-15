@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36DD0C4E-8970-0B73-3820-ABCCC8617958" name="tipo_experiencia">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:07:17 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1E36AA80-C8FA-F71C-AA3A-81FB9B473688">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:07:47 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_experiencia" id="8A32975D-A20F-85E3-F1E6-CD8223818866">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:07:56 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C95953FD-3862-17ED-35AA-4DD1E3C4261A" name="tipo_experiencia PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:07:55 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E36AA80-C8FA-F71C-AA3A-81FB9B473688</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

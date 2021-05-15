@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E07B792-7F23-08D3-B155-64D041F6CE25" name="Experiencias_laborales">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:05:39 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AFE8CC5A-FBF7-3603-7E09-7F6A7DC70663">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:05:56 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="empresa" id="F38F759B-86EB-AA2A-4839-34721AD22942">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:06:14 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="88F9ECD3-CA5E-6206-0EEE-88655FD692CD">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:06:41 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_termino" id="81400A67-8786-E2F8-B1DF-57BE1590BC77">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:06:58 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="68F8D259-CF20-FDA3-CA45-7456476BE6F8">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:08:35 UTC</createdTime>
+<generatorID>7213FE1C-E3C4-0D47-897D-5810ED49C351</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<referedAttribute>1E36AA80-C8FA-F71C-AA3A-81FB9B473688</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="5B277193-B1C2-944C-58E0-E63BF8EB0D95">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:08:42 UTC</createdTime>
+<generatorID>04A49D93-CD1A-1F11-4804-7B47697CDA5E</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<referedAttribute>A9856065-E3B7-BD1E-6346-87E56781D422</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3B8359B-4BBF-86F8-C5BA-B6893F8018D7" name="Experiencias_laborales PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:06:13 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFE8CC5A-FBF7-3603-7E09-7F6A7DC70663</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

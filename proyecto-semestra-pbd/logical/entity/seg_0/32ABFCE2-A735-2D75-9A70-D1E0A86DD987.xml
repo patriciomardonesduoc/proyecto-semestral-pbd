@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32ABFCE2-A735-2D75-9A70-D1E0A86DD987" name="Proyectos">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:14:54 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A91E9782-57F3-BE2D-A924-1F0B900D48D4">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:15:04 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="proyecto" id="89709961-B1A2-0427-D670-EA59823A2BC4">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:15:24 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="AF964404-A0ED-8EA2-87DF-0B27E6AAB503">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:16:51 UTC</createdTime>
+<generatorID>179BF85F-6617-61B5-D9D3-3328FF61B9BD</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<referedAttribute>69901C79-BDBD-9AE0-69C6-4DCB9BE5F19C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="2EB3BFC1-15B8-C2D6-DE6B-F1CC0BAD2121">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:16:57 UTC</createdTime>
+<generatorID>0DB06941-C44D-F71E-1E83-CCE165457603</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<referedAttribute>A9856065-E3B7-BD1E-6346-87E56781D422</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5714E96A-E0D0-96E1-834D-C7E229723E9E" name="Proyectos PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:15:12 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A91E9782-57F3-BE2D-A924-1F0B900D48D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
