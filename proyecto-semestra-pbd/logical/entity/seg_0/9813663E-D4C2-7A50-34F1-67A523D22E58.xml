@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBC1D6AC-EC49-079F-C74D-02611184963F" name="estudios">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9813663E-D4C2-7A50-34F1-67A523D22E58" name="Lineas_investigacion">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 01:28:53 UTC</createdTime>
+<createdTime>2021-05-15 16:55:32 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="FD8CA6EC-6F71-F218-4478-E568E9E420A3">
+<Attribute name="id" id="D1188F78-7372-72E6-2118-D06237907126">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 01:28:58 UTC</createdTime>
+<createdTime>2021-05-15 16:55:47 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -27,10 +27,63 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="767190C9-8BA7-A0B0-86C8-F5622D38A7D6">
+<Attribute name="linea_investigacion_1" id="4E3AED90-C929-0066-8911-573CF2B99481">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 16:47:51 UTC</createdTime>
-<generatorID>A93C489A-AFFB-41E0-EBEA-3A741005A5DB</generatorID>
+<createdTime>2021-05-15 16:55:59 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="linea_investigacion_2" id="A7104D72-D8BB-E219-77AC-A88F098B3EB0">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 16:56:43 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="linea_investigacion_3" id="C58FEDCC-D49C-B8A9-E3D2-C88384AA7885">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 16:56:54 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disciplina_principal" id="26D71D23-58AA-D722-1A8B-F85FFAE23F47">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 16:57:05 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="70E8A595-4E5C-8E07-7CBD-E0B72951DD5A">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 16:57:47 UTC</createdTime>
+<generatorID>ECC05C98-2545-03F7-C23F-6CED9A514B5A</generatorID>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -41,74 +94,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="D2B84053-5C26-62FE-9BD6-78D1006457F4">
-<createdBy>Pato</createdBy>
-<createdTime>2021-05-15 16:49:42 UTC</createdTime>
-<generatorID>4F5BD126-B77A-C7D8-07C1-BE084DE82435</generatorID>
-<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
-<engineerTo>
-<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
-</engineerTo>
-<referedAttribute>739057B0-958A-805C-BFCC-BA31717339A2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id3" id="F4FA1EF0-7E92-2BB1-4939-5E3F2E824E81">
-<createdBy>Pato</createdBy>
-<createdTime>2021-05-15 16:51:38 UTC</createdTime>
-<generatorID>67D9D31B-0E05-457A-45DB-4C3C060362F0</generatorID>
-<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
-<engineerTo>
-<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
-</engineerTo>
-<referedAttribute>A9C403A8-17E3-90D5-0F72-2CF46D819827</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id4" id="A7BE1BDD-A834-DDA4-6AA1-EC4F53719B3E">
-<createdBy>Pato</createdBy>
-<createdTime>2021-05-15 16:52:44 UTC</createdTime>
-<generatorID>66EFEBD2-205B-F971-DEB5-56DA90DAB4FA</generatorID>
-<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
-<engineerTo>
-<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
-</engineerTo>
-<referedAttribute>0CDCF589-11FC-637C-8FF2-4E57C6FD7418</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id5" id="4840B86E-270B-BC31-41D9-BC6612C23746">
-<createdBy>Pato</createdBy>
-<createdTime>2021-05-15 16:53:37 UTC</createdTime>
-<generatorID>23D22A52-0C0E-7A13-099B-442061518B70</generatorID>
-<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
-<engineerTo>
-<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
-</engineerTo>
-<referedAttribute>C10A4DEB-400A-0AB1-9100-165670A99A94</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7CA65248-6BD1-4D5E-2A3F-ABECBD2E263F" name="estudios PK">
+<identifier id="197D6AD0-EE1F-DE55-C9B8-C76E46AFE2F0" name="Lineas_investigacion PK">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 01:29:05 UTC</createdTime>
+<createdTime>2021-05-15 16:55:58 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FD8CA6EC-6F71-F218-4478-E568E9E420A3</attributeRef>
+<attributeRef>D1188F78-7372-72E6-2118-D06237907126</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
