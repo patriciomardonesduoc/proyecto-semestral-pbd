@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58A7458E-DAFA-EB52-41BA-FF82D2001FBD" name="Experiencias_laborales">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>4E07B792-7F23-08D3-B155-64D041F6CE25</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7C75F99E-02FC-BBC4-C66F-3EB7326FD69E">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>AFE8CC5A-FBF7-3603-7E09-7F6A7DC70663</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa" id="71A009E3-7412-7EF8-40FE-48E20825F5DC">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>F38F759B-86EB-AA2A-4839-34721AD22942</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="6A64AA2D-D7DA-C079-E80B-B28D026FAB3E">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>88F9ECD3-CA5E-6206-0EEE-88655FD692CD</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="46857F0C-C7E5-B0E2-6C91-D3413EDC6242">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>81400A67-8786-E2F8-B1DF-57BE1590BC77</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_experiencia_id" id="7C34A3A0-F955-69DF-00B1-2A76944A04FE">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>68F8D259-CF20-FDA3-CA45-7456476BE6F8</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81EB8262-21C8-9D05-FB79-3285EBD6016A" referredColumn="8E9AED43-2409-9AC8-5D05-5FD4E9B1746F"/>
+</associations>
+</Column>
+<Column name="Postulantes_id" id="09D8CABB-0A29-AD56-18E0-42AEB18D370A">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>5B277193-B1C2-944C-58E0-E63BF8EB0D95</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E8D4CC3-7CC7-7D16-D8DC-76C80CD951B0" referredColumn="13A5E991-01A2-C6D7-F1C6-9BBA0673129D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BD7AC95-C6AD-75FA-5CC9-62C7872ACE0F" name="Experiencias_laborales_PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>E3B8359B-4BBF-86F8-C5BA-B6893F8018D7</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C75F99E-02FC-BBC4-C66F-3EB7326FD69E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE60F2E7-1725-35AA-DFE0-664BC39A6BC9" name="Exp_laborales_tipo_exp_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>7213FE1C-E3C4-0D47-897D-5810ED49C351</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C34A3A0-F955-69DF-00B1-2A76944A04FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2ADC613-E90B-07A2-F393-D9D3ED665526" name="Exp_laborales_Post_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>04A49D93-CD1A-1F11-4804-7B47697CDA5E</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D8CABB-0A29-AD56-18E0-42AEB18D370A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

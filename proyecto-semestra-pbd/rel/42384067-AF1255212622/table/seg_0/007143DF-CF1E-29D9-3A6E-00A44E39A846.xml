@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="007143DF-CF1E-29D9-3A6E-00A44E39A846" name="estudios">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>BBC1D6AC-EC49-079F-C74D-02611184963F</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7511F796-6D22-D186-EFE3-BBD604CEBEC4">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>FD8CA6EC-6F71-F218-4478-E568E9E420A3</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postulantes_id" id="E3385DAC-88C7-D0C9-5DEB-76A00279418F">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>767190C9-8BA7-A0B0-86C8-F5622D38A7D6</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB0FF5F0-C3F8-9D38-08D5-929FA529F1CE" referredColumn="13A5E991-01A2-C6D7-F1C6-9BBA0673129D"/>
+</associations>
+</Column>
+<Column name="Paises_id" id="4DB2F0DB-9B07-CDBC-6CEC-BA5A848FB3AE">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>D2B84053-5C26-62FE-9BD6-78D1006457F4</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A56C78A-98C8-195C-CB80-DEA1AE1F9754" referredColumn="D6609968-A824-848E-FF8F-B5143466E514"/>
+</associations>
+</Column>
+<Column name="Dependecia_Establecimiento_id" id="A78BFCFF-0C02-A2A9-292C-0D3CF05A0AD1">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>F4FA1EF0-7E92-2BB1-4939-5E3F2E824E81</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76BF6D81-C972-2473-3DD5-A15D731ED0C3" referredColumn="157E12B4-A91F-FED4-8BF2-AC1DEDC5E3E3"/>
+</associations>
+</Column>
+<Column name="Tipo_Establecimiento_id" id="E3C2170F-7FAD-2F7A-A9F6-61C7B3B40616">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>A7BE1BDD-A834-DDA4-6AA1-EC4F53719B3E</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8429D123-845D-2039-8DB4-3EEFE05E62DA" referredColumn="7F5BE2B4-63C8-9090-F003-83F07205BF47"/>
+</associations>
+</Column>
+<Column name="Tipo_Ingreso_Uni_id" id="0A76F67F-F489-6FFB-1518-478A7B54CC73">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>4840B86E-270B-BC31-41D9-BC6612C23746</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18A0BBAC-FB37-E6B4-189D-44CE7B4BC219" referredColumn="38E26FB8-9091-A163-D733-26194E697135"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B680233-CEFB-538A-4F2F-18F942D2B4AB" name="estudios_PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>7CA65248-6BD1-4D5E-2A3F-ABECBD2E263F</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7511F796-6D22-D186-EFE3-BBD604CEBEC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8662E06B-91D3-DDD6-7812-208CE91C7EEF" name="estudios_Postulantes_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>A93C489A-AFFB-41E0-EBEA-3A741005A5DB</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3385DAC-88C7-D0C9-5DEB-76A00279418F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8C87A0A-D9E9-2A02-BE04-B872E1F2C619" name="estudios_Paises_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>4F5BD126-B77A-C7D8-07C1-BE084DE82435</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DB2F0DB-9B07-CDBC-6CEC-BA5A848FB3AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EF9FE0A-F06C-01F8-4BC5-FA588335EF35" name="estudios_Dep_Est_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>67D9D31B-0E05-457A-45DB-4C3C060362F0</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A78BFCFF-0C02-A2A9-292C-0D3CF05A0AD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6C2341E-EE76-66A7-D934-6294169F7630" name="estudios_Tipo_Est_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>66EFEBD2-205B-F971-DEB5-56DA90DAB4FA</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C2170F-7FAD-2F7A-A9F6-61C7B3B40616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B57EE8E-63E6-2AA9-E1A0-26C43118618F" name="estudios_Tipo_Ing_Uni_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>23D22A52-0C0E-7A13-099B-442061518B70</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A76F67F-F489-6FFB-1518-478A7B54CC73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

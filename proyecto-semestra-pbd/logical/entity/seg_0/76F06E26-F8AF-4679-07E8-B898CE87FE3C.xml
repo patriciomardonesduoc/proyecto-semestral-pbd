@@ -240,6 +240,30 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="promedio_notas" id="A2C206F0-D9C7-A4FB-52F3-D448516B78CD">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:31:01 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="B656C35E-5669-2FFB-3492-8C91984FEB80">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:28:16 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B323FB71-A9DE-70B4-487A-394A6B4B03E3" name="Postulantes PK">

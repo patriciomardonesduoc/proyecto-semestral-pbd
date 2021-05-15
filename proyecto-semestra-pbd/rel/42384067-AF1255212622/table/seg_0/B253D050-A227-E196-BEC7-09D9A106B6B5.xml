@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B253D050-A227-E196-BEC7-09D9A106B6B5" name="Sub_Areas">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>0E29A4B5-E0CB-F45C-BC76-890AA74BB1A8</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="84DADAB2-D0D3-B035-D566-D0CBECCA7717">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>7612D748-D019-EC74-2322-2BC802D21588</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sub_area" id="BD847ED7-9852-2874-88D0-E4245E2C93D3">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>D7D2F9DA-C9F4-3406-1D0D-D46E17C5EB33</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Disciplinas_id" id="109E2A0C-EAF5-238E-5C3E-79CFD8317792">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>288B9AEF-CA13-36AD-F533-D238235B7ABC</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1F120D0-A807-E9B4-AE22-7F5362601A0F" referredColumn="10B5F809-E664-7238-9235-863CD1663F31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63CF56B1-5021-BA6C-2254-160A829D28B2" name="Sub_Areas_PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>8C3EE9A1-EAEB-CB35-3EB8-E0BAC27ED9D8</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84DADAB2-D0D3-B035-D566-D0CBECCA7717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFEE378D-115D-A3E3-E312-F8BEF9C6E463" name="Sub_Areas_Disciplinas_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>C974FF81-2231-F825-B067-1EEF9E830A67</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109E2A0C-EAF5-238E-5C3E-79CFD8317792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

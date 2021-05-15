@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A56C78A-98C8-195C-CB80-DEA1AE1F9754" containerWithKeyObject="007143DF-CF1E-29D9-3A6E-00A44E39A846" localFKIndex="E8C87A0A-D9E9-2A02-BE04-B872E1F2C619" name="estudios_Paises_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>4F5BD126-B77A-C7D8-07C1-BE084DE82435</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<referredTableLongName>Paises</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F686B5FC-E50D-961E-0344-0983C3AF9776</referredTableID>
+<keyObject>CCC92050-8F58-17B8-992B-240F944C1869</keyObject>
+<referredKeyID>CCC92050-8F58-17B8-992B-240F944C1869</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

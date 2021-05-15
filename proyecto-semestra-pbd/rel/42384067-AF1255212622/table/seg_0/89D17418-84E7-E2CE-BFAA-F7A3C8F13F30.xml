@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89D17418-84E7-E2CE-BFAA-F7A3C8F13F30" name="Rankings">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>436C2EBB-CF49-58B5-1ADA-0F49F632472C</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sub_Areas_id" id="0D435EF2-4913-375E-BB36-51CC8AF83FC1">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>7EA9BAED-D199-FFE4-BD89-1E7333A832BF</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E34489-F23B-0EB7-7EF6-D12888953EC6" referredColumn="84DADAB2-D0D3-B035-D566-D0CBECCA7717"/>
+</associations>
+</Column>
+<Column name="Instituciones_id" id="FDF5D921-6927-3430-8BD7-22651A914771">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>D9041EA6-A574-99CF-0DB5-BF0F285DD43C</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20EE9D7D-EBDA-97F1-858E-A7A40E64F211" referredColumn="05ACEB2F-3403-A1F1-19E4-22D405575530"/>
+</associations>
+</Column>
+<Column name="ranking" id="3C2D6E12-0245-020E-7821-583DB883151A">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>668B0D12-02D8-8DE8-B4EF-D5FEFF2BBD0D</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="A283892F-F7C0-0C5C-88B2-25DAEB6849C0">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>23705C9D-6924-35B6-2B20-AA3B35A173BA</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6547877-57B6-0B73-EF3B-465742AEAC0F" name="Rankings_Sub_Areas_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>DCC203FD-27E9-B615-7282-7911D6F27A9D</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D435EF2-4913-375E-BB36-51CC8AF83FC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB372532-EF87-F560-C77D-253E98B28305" name="Rankings_Instituciones_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>A6FEFE85-9025-20B9-FB40-C8D309ED286D</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF5D921-6927-3430-8BD7-22651A914771"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A22320A4-9056-9F40-EB7F-564096E0266B" name="Postulaciones">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>8B63BC88-02D2-1C9E-4328-4E2577A160BC</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0290E9BF-F59A-D2ED-E7CF-3BB4683973D3">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>39F300D0-6DCD-5C04-0B44-698DCA8B85CA</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postulantes_id" id="4D78AB65-3635-3E8E-FB37-EB7AFDB05CCC">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>74109F5B-E6A9-5D9A-5E30-B1279197CB80</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62986C64-BC51-8896-6321-FA51F6B24D8A" referredColumn="13A5E991-01A2-C6D7-F1C6-9BBA0673129D"/>
+</associations>
+</Column>
+<Column name="Programas_id" id="732CF765-D5F9-2301-A5EC-8BE3D0EEE71F">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>8BB81A93-C734-4AF6-AA46-45E5810A7389</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52E5B946-820C-2850-E2EF-B8E3A9CE7C22" referredColumn="AD5BE81A-D588-5A31-8CC0-3FC44F9B385B"/>
+</associations>
+</Column>
+<Column name="fecha_postulacion" id="5CF3FE4A-AC3F-22A8-CBC1-A9248644BEC2">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>14EB5F0E-5E2E-D610-16EE-66CE154EA390</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4740D30A-460F-0613-9078-1C9E09B4F4EB" name="Postulaciones_PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>7991FF3F-E73B-85A3-5691-88FCB457744A</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0290E9BF-F59A-D2ED-E7CF-3BB4683973D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32A60770-5211-EE74-D9F0-18C639AC2FEC" name="Postulaciones_Postulantes_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>D8448817-3E9B-91D3-98E1-415BCCBF18E5</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D78AB65-3635-3E8E-FB37-EB7AFDB05CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE0B762E-D069-C816-285F-CF3298E290BC" name="Postulaciones_Programas_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>C57DC65F-651A-CB33-F7DE-75D301283FB9</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="732CF765-D5F9-2301-A5EC-8BE3D0EEE71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

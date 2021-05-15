@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB86818B-0949-9794-576B-61B35F012A5F" name="Documentos">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>D840B83F-EECF-095C-1A0E-2F05A4D7ABD7</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Postulantes_id" id="17241C35-D5FA-AD4D-2C21-6A24A5928470">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>0FFA0BF2-2642-4036-DEDC-5BD840802633</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05D0DF3F-029B-28EA-9A5B-6F33627DD923" referredColumn="13A5E991-01A2-C6D7-F1C6-9BBA0673129D"/>
+</associations>
+</Column>
+<Column name="ruta_cedula" id="B059058D-A4AC-7C45-9A4C-0111B0EB45F6">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>82DD732E-BF0C-219C-94E6-99ACAF8C6B82</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_permanencia" id="B25027EB-C7E8-8853-71EA-7B709E28C5A1">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>35C8E7DB-73F0-792D-F168-927366F3F0A3</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_certificado_titulo" id="5BCF9849-0BE3-F644-84F0-A3E9EDAAB957">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>3AFB668D-6CC0-F53D-DB03-94A2F8AFC7E9</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_concentracion_notas" id="D63B130D-7960-631D-9CEA-E44159571DD7">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>F18A96BA-4A8E-FFA7-42A1-C0E6429B3835</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_certificado_especialidad" id="FF5CBB14-9153-BD78-2D18-8048B700759C">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>B6F87084-D16F-D850-212C-60C670AB67F3</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_certificado_laboral" id="27F7B740-D1C9-AF1D-CA33-FA4AA939E6C9">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>A433D587-795C-E064-0529-A9DB4C6D0EBE</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certificado_idioma" id="3BF2547A-1E8C-9CE1-06A6-B91159F43771">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>9F402A53-175A-EDFF-F764-7A540ACB25C7</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92AC80FA-413A-7B2F-CD74-031C024C7C20" name="Documentos_Postulantes_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>A307269D-BD67-8804-B13E-720ADF98D821</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17241C35-D5FA-AD4D-2C21-6A24A5928470"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC0A4CAF-E518-C409-0E29-4DF49767AE90" containerWithKeyObject="4E93D6C0-3689-647F-213A-BEB765701619" localFKIndex="70A7300C-F086-9411-E82E-2C9C6BE9384E" name="Provincias_regiones_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>B50E0704-D151-F66E-7991-E2C2D8903304</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<referredTableLongName>regiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3267E1BB-965A-5CDD-3758-54D408AA2969</referredTableID>
+<keyObject>68E6E3C9-288B-A523-6107-3555591D509E</keyObject>
+<referredKeyID>68E6E3C9-288B-A523-6107-3555591D509E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81EB8262-21C8-9D05-FB79-3285EBD6016A" containerWithKeyObject="58A7458E-DAFA-EB52-41BA-FF82D2001FBD" localFKIndex="BE60F2E7-1725-35AA-DFE0-664BC39A6BC9" name="Exp_laborales_tipo_exp_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>7213FE1C-E3C4-0D47-897D-5810ED49C351</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<referredTableLongName>tipo_experiencia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8942F85-7D22-037F-6770-0E65A6EF0902</referredTableID>
+<keyObject>403C2BFD-A2BA-6CD9-D21D-56149BD0C21A</keyObject>
+<referredKeyID>403C2BFD-A2BA-6CD9-D21D-56149BD0C21A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

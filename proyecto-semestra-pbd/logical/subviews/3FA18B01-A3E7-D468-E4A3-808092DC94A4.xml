@@ -26,10 +26,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="345" y="1394" width="123" height="102"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0D2F664A-7693-1917-9D12-41E823BA55D8" otype="Entity" vid="CA64D5CB-F9FC-352C-B556-CF5E349FF7CD">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="950" y="2363" width="41" height="107"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0E29A4B5-E0CB-F45C-BC76-890AA74BB1A8" otype="Entity" vid="4B71BFA2-9E09-29EF-7236-B59C6C9810B8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1553" y="1447" width="196" height="100"/>
@@ -60,7 +56,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4E07B792-7F23-08D3-B155-64D041F6CE25" otype="Entity" vid="24E59947-A7C2-E988-EB42-0B67B47ECEB4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1038" y="809" width="185" height="134"/>
+<bounds x="1046" y="809" width="185" height="134"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="56599147-E7BE-493E-0BEF-B519EAC648B6" otype="Entity" vid="9C51B3E0-A85C-43AB-17E6-9D2F9E9D594D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -157,8 +153,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="993" y="714"/>
-<point x="1073" y="809"/>
+<point x="994" y="709"/>
+<point x="1080" y="809"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="081F9AB0-D566-118A-6323-41B0B08344DF" otype="Relation" vid_source="19C22A05-E380-831C-1E10-17D7FAD573EF" vid_target="D7C705C0-6BBD-A349-FF91-1CE8D50BDB4A">
@@ -284,7 +280,7 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1286" y="882"/>
-<point x="1223" y="882"/>
+<point x="1231" y="882"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="93D23B8C-8E5E-5B69-3594-0B3B91C4958F" otype="Relation" vid_source="3B96FF97-C2F5-D541-B3C5-D40CEC2278C5" vid_target="A93463C8-3709-4F26-FFE0-F0C341D70100">

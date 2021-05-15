@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FADE2B5-DCE7-18C8-8CEC-AEC5E5CAD687" containerWithKeyObject="F116ABD7-249E-BA74-0CFD-4591342C5D9D" localFKIndex="660CA010-F9E6-5C8E-6593-8FDB1501D3E4" name="Programas_Subespecialidades_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>FA93396A-91B2-5FC8-4D56-E0EBEA6F5F9C</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<referredTableLongName>Subespecialidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4579A0FC-755C-472D-8B97-5C29264E6F38</referredTableID>
+<keyObject>5BA31825-8984-461A-505A-C99705698E5B</keyObject>
+<referredKeyID>5BA31825-8984-461A-505A-C99705698E5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

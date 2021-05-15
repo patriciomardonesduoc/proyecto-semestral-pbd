@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dep_establecimiento_educacional" id="5529E914-9353-132D-9DD0-0A068A76B5DD">
+<Attribute name="dep_est_edu" id="5529E914-9353-132D-9DD0-0A068A76B5DD">
 <createdBy>Pato</createdBy>
 <createdTime>2021-05-15 16:50:54 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>

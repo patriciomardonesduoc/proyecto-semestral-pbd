@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87550D58-2039-2553-4F8D-13575A39A945" containerWithKeyObject="652248A8-2AB0-6F4D-6F44-FD1CC1BBAF88" localFKIndex="497F05E8-B5D5-D69E-F6D5-CCBCFCCF74C4" name="Instituciones_Ciudades_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>C078AAF0-9855-0EA4-469F-D726259ACB3D</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<referredTableLongName>Ciudades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CF828544-0002-2EEB-1608-DCDEB64667CE</referredTableID>
+<keyObject>3A58AFFF-07A5-48FC-1B4A-D64C250EE8CE</keyObject>
+<referredKeyID>3A58AFFF-07A5-48FC-1B4A-D64C250EE8CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

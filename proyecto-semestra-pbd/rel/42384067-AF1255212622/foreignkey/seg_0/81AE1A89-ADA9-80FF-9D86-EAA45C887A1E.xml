@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81AE1A89-ADA9-80FF-9D86-EAA45C887A1E" containerWithKeyObject="34807B36-2C5E-7C9D-64C5-D81D1F0414A7" localFKIndex="4CC73A71-3B81-212F-6A3B-A94E09A3F618" name="dat_cont_Comunas_FK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:40:27 UTC</createdTime>
+<generatorID>3B0E29C8-BD8D-5B48-C5D5-D85F39511108</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<referredTableLongName>Comunas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>97C95BDC-C037-EC49-EFC5-D5B7CCC3A4B0</referredTableID>
+<keyObject>DC1DEAE0-EB13-53C4-509E-28FAE6B70E8B</keyObject>
+<referredKeyID>DC1DEAE0-EB13-53C4-509E-28FAE6B70E8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
