@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40A0D03C-1533-4289-9AEE-CCDBF9C9152C" name="Paises">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D11F998-32FD-4708-2C81-F6FE98B7EB7A" name="Modulos">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:46 UTC</createdTime>
+<createdTime>2021-05-15 18:00:00 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="739057B0-958A-805C-BFCC-BA31717339A2">
+<Attribute name="id" id="CD954FB0-D132-7880-1F25-E2CBFB428461">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:51 UTC</createdTime>
+<createdTime>2021-05-15 18:00:06 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pais" id="D9C7D4C9-08BB-2788-6E58-330F62C31128">
+<Attribute name="modulo" id="9B2A0035-ED20-30EC-7559-A74935480CD4">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:58 UTC</createdTime>
+<createdTime>2021-05-15 18:00:23 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -40,18 +40,32 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="73290BBF-2EA2-A17F-2F7E-7B748CA683EB">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:01:25 UTC</createdTime>
+<generatorID>F4388116-9B3F-9FA2-78C7-7E1B611F6520</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<referedAttribute>BCFACE80-5C69-95FB-5E0E-5ED33ECDA16B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4EE06D5B-317C-FC2E-9115-F1025E1FEAB3" name="Paises PK">
+<identifier id="41940005-67AC-504A-F9D7-ECF2FB05EA25" name="Modulos PK">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:57 UTC</createdTime>
+<createdTime>2021-05-15 18:00:22 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>739057B0-958A-805C-BFCC-BA31717339A2</attributeRef>
+<attributeRef>CD954FB0-D132-7880-1F25-E2CBFB428461</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

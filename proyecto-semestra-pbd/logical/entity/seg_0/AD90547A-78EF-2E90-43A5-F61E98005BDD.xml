@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D840B83F-EECF-095C-1A0E-2F05A4D7ABD7" name="Documentos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD90547A-78EF-2E90-43A5-F61E98005BDD" name="Programas">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:29:48 UTC</createdTime>
+<createdTime>2021-05-15 17:55:53 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -15,110 +15,135 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="0FFA0BF2-2642-4036-DEDC-5BD840802633">
+<Attribute name="id" id="BCFACE80-5C69-95FB-5E0E-5ED33ECDA16B">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:31:32 UTC</createdTime>
-<generatorID>A307269D-BD67-8804-B13E-720ADF98D821</generatorID>
+<createdTime>2021-05-15 17:55:57 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
-<referedAttribute>A9856065-E3B7-BD1E-6346-87E56781D422</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ruta_cedula" id="82DD732E-BF0C-219C-94E6-99ACAF8C6B82">
+<Attribute name="cupo_minimo" id="5814DE58-BB80-722D-515F-442243C4B673">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:30:03 UTC</createdTime>
+<createdTime>2021-05-15 17:56:45 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cupo_maximo" id="06CFF38F-C9EA-0247-08FD-6997299BFA95">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:57:10 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="56775809-2B34-AFA1-0EB8-2E8FB032D1D1">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:57:22 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="requisitos_academicos" id="A4008A95-6178-0F34-851A-22D2474A2DAE">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:03:01 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ruta_permanencia" id="35C8E7DB-73F0-792D-F168-927366F3F0A3">
+<Attribute name="requisitos_laborales" id="ED4CD735-22FC-1736-EC97-64341A33FB84">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:30:23 UTC</createdTime>
+<createdTime>2021-05-15 18:03:17 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ruta_certificado_titulo" id="3AFB668D-6CC0-F53D-DB03-94A2F8AFC7E9">
+<Attribute name="requisitos_idioma" id="3CE499B0-AC68-AA89-BD07-EB990E7D94B9">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:30:35 UTC</createdTime>
+<createdTime>2021-05-15 17:59:02 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ruta_concentracion_notas" id="F18A96BA-4A8E-FFA7-42A1-C0E6429B3835">
+<Attribute name="id1" id="247AC791-0AB5-2C7F-7B99-EC929DF1D124">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:30:45 UTC</createdTime>
+<createdTime>2021-05-15 18:02:55 UTC</createdTime>
+<generatorID>FA93396A-91B2-5FC8-4D56-E0EBEA6F5F9C</generatorID>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DC2582DE-34E8-14BF-588F-6F6F38846600</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ruta_certificado_especialidad" id="B6F87084-D16F-D850-212C-60C670AB67F3">
+<Attribute name="id2" id="D059600D-82C1-D2DE-DC30-2A293FC82E83">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-15 17:31:00 UTC</createdTime>
+<createdTime>2021-05-15 18:10:42 UTC</createdTime>
+<generatorID>230E1B9D-7DAB-8DD6-9D35-625DF7833247</generatorID>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8C1BAD03-732D-5858-3AB6-861B5C7B2463</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ruta_certificado_laboral" id="A433D587-795C-E064-0529-A9DB4C6D0EBE">
-<createdBy>Pato</createdBy>
-<createdTime>2021-05-15 18:17:36 UTC</createdTime>
-<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
-<engineerTo>
-<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="certificado_idioma" id="9F402A53-175A-EDFF-F764-7A540ACB25C7">
-<createdBy>Pato</createdBy>
-<createdTime>2021-05-15 18:17:51 UTC</createdTime>
-<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
-<engineerTo>
-<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6A642E0-71CA-CC88-4527-EF4575420874" name="Programas PK">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 17:56:44 UTC</createdTime>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCFACE80-5C69-95FB-5E0E-5ED33ECDA16B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

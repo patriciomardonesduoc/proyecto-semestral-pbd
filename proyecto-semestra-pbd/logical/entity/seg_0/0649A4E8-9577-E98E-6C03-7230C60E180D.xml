@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40A0D03C-1533-4289-9AEE-CCDBF9C9152C" name="Paises">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0649A4E8-9577-E98E-6C03-7230C60E180D" name="Ciudades">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:46 UTC</createdTime>
+<createdTime>2021-05-15 18:15:09 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="739057B0-958A-805C-BFCC-BA31717339A2">
+<Attribute name="id" id="B6E1E2F9-C60F-CBF5-A3AF-87CF0D524F41">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:51 UTC</createdTime>
+<createdTime>2021-05-15 18:15:16 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pais" id="D9C7D4C9-08BB-2788-6E58-330F62C31128">
+<Attribute name="ciudad" id="952A9CCD-695F-3146-EA9F-9ED4C803D11C">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:58 UTC</createdTime>
+<createdTime>2021-05-15 18:15:28 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
@@ -40,18 +40,32 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="187516B3-A802-C7B5-D795-BE9F319A2ED4">
+<createdBy>Pato</createdBy>
+<createdTime>2021-05-15 18:15:59 UTC</createdTime>
+<generatorID>081F9AB0-D566-118A-6323-41B0B08344DF</generatorID>
+<ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
+<engineerTo>
+<item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
+</engineerTo>
+<referedAttribute>739057B0-958A-805C-BFCC-BA31717339A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4EE06D5B-317C-FC2E-9115-F1025E1FEAB3" name="Paises PK">
+<identifier id="B05A804A-A608-4321-D2D0-BEE4D229A576" name="Ciudades PK">
 <createdBy>Pato</createdBy>
-<createdTime>2021-05-12 00:57:57 UTC</createdTime>
+<createdTime>2021-05-15 18:15:26 UTC</createdTime>
 <ownerDesignName>proyecto-semestra-pbd</ownerDesignName>
 <engineerTo>
 <item key="42384067-412E-85A9-7517-AF1255212622" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>739057B0-958A-805C-BFCC-BA31717339A2</attributeRef>
+<attributeRef>B6E1E2F9-C60F-CBF5-A3AF-87CF0D524F41</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
