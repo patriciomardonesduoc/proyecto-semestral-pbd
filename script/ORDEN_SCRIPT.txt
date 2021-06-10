@@ -1,0 +1,407 @@
+-----------
+TO_DATE('01012021', 'DDMMYYYY')
+-----------
+
+
+
+INSERT INTO estados_civiles (
+    id,
+    estado_civil
+) VALUES (
+    :v0,
+    :v1
+);
+
+INSERT INTO pueblos_originarios (
+    id,
+    pueblo_originario
+) VALUES (
+    :v0,
+    :v1
+);
+-------------------------------
+
+
+INSERT INTO paises (
+    id,
+    pais
+) VALUES (
+    1,
+    'Chile'
+);
+
+INSERT INTO ciudades (
+    id,
+    ciudad,
+    paises_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2
+);
+
+--------------------------
+
+
+
+
+INSERT INTO postulantes (
+    id,
+    run,
+    nombre_1,
+    nombre_2,
+    apellido_1,
+    apellido_2,
+    fecha_nacimiento,
+    sexo,
+    es_extranjero,
+    pasaporte_ext,
+    visa_ext,
+    tiene_hijos_5_annos,
+    numero_hijos,
+    es_discapacitado,
+    estados_civiles_id,
+    paises_id,
+    pueblos_originarios_id,
+    promedio_notas,
+    puntaje
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5,
+    :v6,
+    :v7,
+    :v8,
+    :v9,
+    :v10,
+    :v11,
+    :v12,
+    :v13,
+    :v14,
+    :v15,
+    :v16,
+    :v17,
+    :v18
+);
+
+
+----------------------
+
+----------------------
+
+INSERT INTO tipos_titulo (
+    id,
+    tipo_titulo
+) VALUES (
+    :v0,
+    :v1
+);
+
+
+INSERT INTO titulos_superiores (
+    id,
+    tipo_estudio,
+    institucion,
+    curso,
+    fecha_obtencion,
+    tipos_titulo_id,
+    postulantes_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5,
+    :v6
+);
+
+---------------------------
+
+INSERT INTO tipo_ingreso_uni (
+    id,
+    tipo_ingreso_universidad
+) VALUES (
+    :v0,
+    :v1
+);
+
+INSERT INTO tipo_establecimiento (
+    id,
+    tipo_est_edu
+) VALUES (
+    :v0,
+    :v1
+);
+
+INSERT INTO dependecia_establecimiento (
+    id,
+    dep_est_edu
+) VALUES (
+    :v0,
+    :v1
+);
+
+INSERT INTO estudios (
+    id,
+    postulantes_id,
+    paises_id,
+    dependecia_establecimiento_id,
+    tipo_establecimiento_id,
+    tipo_ingreso_uni_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5
+);
+
+---------------------------
+
+INSERT INTO tipo_experiencia (
+    id,
+    tipo_experiencia
+) VALUES (
+    :v0,
+    :v1
+);
+
+
+
+INSERT INTO experiencias_laborales (
+    id,
+    empresa,
+    fecha_inicio,
+    fecha_termino,
+    tipo_experiencia_id,
+    postulantes_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5
+);
+
+-----------------------------
+
+INSERT INTO tipos_proyecto (
+    id,
+    financiamiento
+) VALUES (
+    :v0,
+    :v1
+);
+
+INSERT INTO proyectos (
+    id,
+    proyecto,
+    tipos_proyecto_id,
+    postulantes_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3
+);
+
+----------------------------
+
+INSERT INTO documentos (
+    postulantes_id,
+    ruta_cedula,
+    ruta_permanencia,
+    ruta_certificado_titulo,
+    ruta_concentracion_notas,
+    ruta_certificado_especialidad,
+    ruta_certificado_laboral,
+    certificado_idioma
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5,
+    :v6,
+    :v7
+);
+
+------------------------------
+
+INSERT INTO lineas_investigacion (
+    id,
+    linea_investigacion_1,
+    linea_investigacion_2,
+    linea_investigacion_3,
+    disciplina_principal,
+    postulantes_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5
+);
+
+--------------------------------
+
+INSERT INTO jerarquias_academicas (
+    id,
+    jerarquia,
+    institucion,
+    compromiso_contractual,
+    postulantes_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4
+);
+
+----------------------------------
+
+INSERT INTO objetivos (
+    id,
+    objetivo_principal,
+    interes_principal,
+    aplicacion_subespecialidad,
+    postulantes_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4
+);
+
+------------------------------
+-- Parte II
+------------------------------
+
+
+INSERT INTO instituciones (
+    id,
+    institucion,
+    url,
+    ciudades_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3
+);
+
+-------------------------
+
+INSERT INTO disciplinas (
+    id,
+    disciplina
+) VALUES (
+    :v0,
+    :v1
+);
+
+INSERT INTO sub_areas (
+    id,
+    sub_area,
+    disciplinas_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2
+);
+
+INSERT INTO rankings (
+    sub_areas_id,
+    instituciones_id,
+    ranking,
+    puntaje
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3
+);
+
+----------------------
+
+INSERT INTO subespecialidades (
+    id,
+    subespecialidad
+) VALUES (
+    :v0,
+    :v1
+);
+
+
+INSERT INTO programas (
+    id,
+    cupo_minimo,
+    cupo_maximo,
+    duracion,
+    requisitos_academicos,
+    requisitos_laborales,
+    requisitos_idioma,
+    subespecialidades_id,
+    instituciones_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3,
+    :v4,
+    :v5,
+    :v6,
+    :v7,
+    :v8
+);
+
+
+-------------------------
+
+INSERT INTO modulos (
+    id,
+    modulo,
+    programas_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2
+);
+
+INSERT INTO submodulos (
+    id,
+    submodulo,
+    modulos_id
+) VALUES (
+    :v0,
+    :v1,
+    :v2
+);
+
+-----------------------
+-- ULTIMO
+-----------------------
+
+INSERT INTO postulaciones (
+    id,
+    postulantes_id,
+    programas_id,
+    fecha_postulacion
+) VALUES (
+    :v0,
+    :v1,
+    :v2,
+    :v3
+);
+
+
